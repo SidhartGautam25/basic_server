@@ -1,16 +1,17 @@
 {
-  "name": "basic_server",
+  "name": "basic-server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "sidhart gautam",
   "license": "ISC",
   "dependencies": {
-    "basic-tiny-router": "^1.0.1",
-    "querystring": "^0.2.1"
+    "querystring": "^0.2.1",
+    "regexparam": "^3.0.0"
   }
 }
